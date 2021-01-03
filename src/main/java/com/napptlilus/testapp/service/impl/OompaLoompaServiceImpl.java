@@ -58,7 +58,7 @@ public class OompaLoompaServiceImpl  implements  OompaLoompaService{
     }
 
     /**
-     * fin all OompaLoompa with given page
+     * find all OompaLoompa with given page
      * @param pageNumber
      * @param size
      * @return

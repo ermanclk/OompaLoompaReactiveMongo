@@ -23,12 +23,6 @@ public class OompaLoompaController {
         this.modelMapper = modelMapper;
     }
 
-    /**
-     * creates OompaLoompa
-     *
-     * @param oompaLoompaDTO
-     * @return
-     */
     @PostMapping
     public Mono<OompaLoompaDTO> create(@RequestBody OompaLoompaDTO oompaLoompaDTO) {
         return oompaLoompaService.create(toEntity(oompaLoompaDTO))
